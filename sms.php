@@ -7,7 +7,7 @@
          $curl = curl_init();
          curl_setopt_array($curl, array(
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'sitename?demophone=$no',
+    CURLOPT_URL => '212688182899',
     CURLOPT_USERAGENT => 'Test request'));
     $resp = curl_exec($curl);
     curl_close($curl); 
